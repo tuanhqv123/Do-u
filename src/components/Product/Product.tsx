@@ -24,11 +24,10 @@ export default function Product() {
           <div className='text-6xl font-bold tracking-wider text-pink-300'>
             Trang có mún đi Valentine với tui ko ???
           </div>
-          <Link
-            to='thanku'
+          <div
             className='mt-10 h-[500px] bg-[url(https://i.pinimg.com/originals/42/61/ec/4261ec8b20a4ec6f9cf047250024371f.gif)] bg-center bg-no-repeat'
             style={{ position: 'relative' }}
-          ></Link>
+          ></div>
           <div className='mx-auto mt-10 grid grid-cols-2 gap-12'>
             <Link
               to='thanku'
